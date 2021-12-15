@@ -3,7 +3,7 @@ const port = process.env.port || 4200
 
 const app = express()
 
-app.use(express.static('public'))
+app.use('',express.static('public'))
 
 // app.get('/',(req,res)=>{
 //     res.send("home")
